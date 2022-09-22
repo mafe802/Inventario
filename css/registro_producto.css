@@ -1,0 +1,57 @@
+.registro form {
+    margin: 1px 370px;
+    width: 500px;
+    padding: 3em;
+    border: 1px solid rgb(57, 78, 194);
+    border-radius: 1em;
+    background-color: #14213D;
+    margin-top: 1px;
+    height: 48hv;
+}
+.registro h1 {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 9vh;
+    color: #ffffff;
+}
+.registro label {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    width: 200px;
+}
+.registro input {
+    border-radius: 1.2em;
+}
+.registro a {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fon {
+    background: url("/img/Producto.jpg") center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 625px;
+}
+.fun {
+    background: url("/img/index.jpg") center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#boton {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    margin: 15px 110px;
+    margin-top: 18px;
+    color: #000000;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+#color form {
+    background-color: #000000;
+}

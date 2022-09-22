@@ -1,0 +1,25 @@
+#caja {
+    margin: 50px 210px;
+    background-color: #14213D;
+    width: 150px;
+    height: 200px;
+}
+#caja > li {
+    float:left;
+}
+#caja li a {
+    background:#FCA311;
+    color:#000000;
+    display:block;
+    border:0 solid;
+    padding:10px 12px;
+}
+#caja li a:hover {
+    background:#E5E5E5;
+}
+#caja-grande {
+    margin: -270px 360px;
+    background-color: #14213D;
+    width: 10px;
+    height: 270px;
+}

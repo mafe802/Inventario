@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Usuarios</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/edicion.css">
+    <link rel="stylesheet" href="/css/listas.css">
+</head>
+<body>
+<nav>
+    
+    <label for="check" class="checkbtn">
+       <i class="fas fa-bars"></i>
+    </label>
+    <a href="/index.html" class="enlace">
+       <img src="/img/logo-blanco.png" alt="menu" class="logo">
+    </a>
+    <ul>
+       <li><a class="active" href="/index.html">Inicio</a></li>
+       <li><a href="#">Usuario Final</a></li>
+       <li><a href="#">Administrador</a></li>
+       <li><a href="#">Super Administrador</a></li>
+       <li><a href="/login.html">Cerrar Sesión</a></li>
+    </ul>
+ </nav>
+ <section></section>
+ <ul class="nav">
+    <li><a href="/lista.html">EDICIÓN</a></li>
+    <li><a href="/registro.html">REGISTRO</a></li>
+    <li><a href="/lista_usarios.html">LISTADO</a></li>
+</ul>
+<div id="caja">
+    <ul>
+        <li><a href="#">REGISTRO</a></li>
+        <li><a href="/registro_de_producto.html" target="_self">REGISTRAR PRODUCTO</a></li>
+        <li><a href="/registro_proveedores.html">REGISTRAR PROVEEDOR</a></li>
+        <li><a href="/registro_usuario.html">REGISTRAR USUARIO</a></li>
+    </ul>
+</div>
+<div id="caja-grande"></div>
+<div class="registro">
+<form>
+    <h1> REGISTRO DE PRODUCTO</h1>
+    <label for="inputCodigo"> CODIGO </label>
+    <input type="number" id="inputCodigo" name="inputCodigo" placeholder="Codigo de Producto" required autocomplete="on">
+    <br>
+    <label for="inputNombre"> NOMBRE </label>
+    <input type="text" id="inputNombre" name="inputNombre" placeholder="Nombre Producto" required autocomplete="on">
+    <br>
+    <label for="inputDescripcion"> DESCRIPCION </label>
+    <input type="text" id="inputDescripcion" name="inputDescripcion" required autocomplete="on">
+    <br>
+    <label for="inputCantidaMinima"> CANTIDAD MINIMA </label>
+    <input type="number" id="inputCantidaMinima" name="inputCantidaMinima" placeholder="Cantidad minima 1" required autocomplete="on">
+    <br>
+    <label for="inputRequeridadBodega"> REQUERIDAD DE BODEGA </label>
+    <input type="number" id="inputRequeridadBodega" name="inputRequeridadBodega" placeholder="Cantidad en Bodega" required autocomplete="on">
+    <br>
+    <label for="inputProvedor"> PROVEDOR </label>
+    <input type="text" id="inputProvedor" name="inputProvedor" required autocomplete="on">
+    <br>
+    <br>
+    <button type="submit" id="button">Registro</button>
+</form>
+</div>
+</body>
+</html>

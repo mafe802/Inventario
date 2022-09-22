@@ -1,0 +1,26 @@
+.lis-usuarios {
+    margin: 150px 370px;
+    width: 500px auto;
+    padding: 3em;
+    border: 1px solid rgb(57, 78, 194);
+    border-radius: 1em;
+    background-color: #ffffff;
+    margin-top: 1px;
+    height: 48px 40px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000000;
+    color: #ffffff;
+}
+td, th {
+    background: #000000;
+    color: #ffffff;
+}
+body {
+    background: url("/img/index1.jpg") center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 625px;
+}
